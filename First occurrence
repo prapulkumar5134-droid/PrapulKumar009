@@ -1,0 +1,5 @@
+numbers = list(map(int, input().split()))
+for i, num in enumerate(numbers):
+    if num==8:
+        print(i)
+        break
