@@ -1,0 +1,14 @@
+n = int(input())
+isPrime = True # Assume n is prime
+
+i = 2
+while i < n:
+    if n % i == 0:
+        isPrime = False # n is not a prime number
+    
+    i += 1
+    
+if isPrime:
+    print('Yes')
+else:
+    print('No')
