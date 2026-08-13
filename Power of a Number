@@ -1,0 +1,9 @@
+N, M = map(int, input().split())
+
+
+result = 1
+
+for i in range(M):
+    result = N * result
+
+print(result)
